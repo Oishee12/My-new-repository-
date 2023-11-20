@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="./assignment.css">
+    <link rel="stylesheet" href="./responsive_assignment.css">
+</head>
+
+<body>
+    <header class="global-padding">
+        <section>
+
+            <!-- nav start -->
+            <nav>
+
+                <div class="logo">
+                    <h1 class="logo-title">Wizarding World</h1>
+                </div>
+
+                <div>
+
+                    <ul>
+                       <a href="">
+                        <li class="list">Home</li>
+                       </a>
+                       <a href="https://youtu.be/1XrzB7egLk8?si=7QIKcYXgnYi5RDAP" target="_blank">
+                        <li class="list">List</li>
+                       </a>
+                       <a href="">
+                        <li class="list">Image</li>
+                       </a>
+                    </ul>
+
+                </div>
+
+            </nav>
+
+            <!-- banner start -->
+
+            <section class="banner-container">
+
+                <div class="banner-title">
+
+                    <h1 id="b-title">Harry Potter Series by J.K. Rowling</h1>
+
+                    <p id="b-desc">
+                        Harry Potter is a series of seven <span class="blue">fantasy novels</span> written by British author <span class="blue">J. K. Rowling</span>. The novels chronicle the lives of a young <span class="blue">wizard</span>, <span class="blue">Harry Potter</span>, and his friends <span class="blue">Hermione Granger</span> and <span class="blue">Ron Weasley</span>, all of whom are students at <span class="blue">Hogwarts School of Witchcraft and Wizardry</span>. The main story are concerns Harry's conflict with <span class="blue">Lord Voldemort</span>, a <span class="blue">dark wizard</span> who intends to become <span class="blue">immortal</span>, overthrow the wizard governing body known as the <span class="blue">Ministry of Magic</span>, and subjugate all wizards and <span class="blue">Muggles</span> (non-magical people).
+                    </p>
+
+                    <button class="btn"><a href="https://en.wikipedia.org/wiki/Harry_Potter" target="_blank" class="button">Read more</a></button>
+                </div>
+
+                <div class="banner-image">
+                    <img src="data:image/png;base64,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" alt="">
+                </div>
+            </section>
+
+        </section>
+    </header>
+
+    <!-- main part start -->
+
+    <main>
+        <section class="main-section">
+
+            <div class="recent-container global-padding">
+                <div class="recent-post-title-container">
+                    <h4>Recent Post</h4>
+                    <p>View All</p>
+                </div>
+
+                <div class="post-container">
+
+                    <div class="post-one">
+                        <h1>
+                        Scholastic celebrates 25 years of Harry Potter and the Sorcerer’s Stone 
+                        </h1>
+                        <p class="post-desc">11 Sep 2023 | Details</p>
+                        <p>
+                            Can you believe it? It is officially 25 years since the first Harry Potter book hit the shelves in the US. And Scholastic have a huge celebration planned.On 27th September, the world-famous Empire State Building will light up Gryffindor red, Slytherin Green, Ravenclaw blue and Hufflepuff yellow to commemorate this huge milestone in the Harry Potter calendar. If you live in that city, you’ll definitely not want to miss this one.
+                        </p>
+                    </div>
+
+                    <div class="post-two">
+                        <h1>Harry Potter and the Cursed Child announces North American Tour for 2024</h1>
+                        <p class="post-desc">15 Oct 2023 | Details</p>
+                        <p>
+                            The award-winning play is embarking on its first ever tour across North America next September!
+ Slated for September 2024, the tour was announced  from Sonia Friedman Productions, producer Colin Callender and Harry Potter Theatrical Productions.
+The touring production of Cursed Child will be based on the version as seen at the Lyric Theatre on Broadway in New York, with dates and venues soon to be announced.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+
+            <div class="featured-container global-padding">
+
+                <div><h4 style="margin-bottom: 30px;">Featured Works</h4></div>
+    
+                <div  class="featured-items">
+    
+                    <div class="f-one">
+    
+                        <div class="image">
+                         <img class="img-one" src="https://images.ctfassets.net/usf1vwtuqyxm/18QRhwlpgMjPQ5HBea7JJl/ebcfa569029e4e398408767ce2085a5c/HP-F3-prisoner-of-azkaban-harry-smiling-hogwarts-express-web-landscape?w=380&h=285&fit=fill&f=top&fm=webp" alt="">   
+                        </div>
+    
+                        <div class="fe-title-container">
+                            <h1 style="margin-bottom: 15px;">Welcome home – the Harry Potter characters who found home at Hogwarts</h1>
+    
+                            <span style="background-color: rgb(152, 129, 152); color: white; padding: 3px 10px; border-radius: 15px; margin-right: 10px;">2023</span>
+                            <span>Dashboard</span>
+    
+                            <p style="margin-top: 15px;">
+                                As Harry once reflected, Hogwarts was the first and best home he’d ever known. And, as anyone who found comfort in those cold corridors knows, that wasn’t only true for Harry. For better or worse, many characters found home inside Hogwarts’ walls.
+                                Harry Potter, Tom Riddle whom called Voldemort and Severus Snape weren’t the only person to find a home at Hogwarts. That draughty castle provided a warm house to many other including,
+    Professor Dumbledore, Professor  Trelawney, 
+    Professor Hagrid, Neville Longbottom.
+    
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="f-two">
+                       
+                        <div class="image">
+                            <img class="img-one" src="https://images.ctfassets.net/usf1vwtuqyxm/5wxeyaY9eCddaqFGNhUxhz/be4958affa3466eced6a5871031e1782/WB-HP-prisoner-of-azkaban-harry-ron-hermione.jpg?w=380&h=285&fit=fill&f=top&fm=webp" alt="">   
+                           </div>
+       
+                           <div class="fe-title-container">
+                               <h1 style="margin-bottom: 15px;">Why you should never cross Hermione Granger</h1>
+       
+                               <span style="background-color: rgb(152, 129, 152); color: white; padding: 3px 10px; border-radius: 15px; margin-right: 10px;">2023</span>
+                               <span>Dashboard</span>
+       
+                               <p style="margin-top: 15px;">
+                                Hermione was the cleverest witch of her age,  also she was be one of the scariest. Don’t believe? 
+                                we couldn’t talk about Hermione without mentioning that big old brain of hers. Quite frankly, if you’re not intimidated by her intelligence, you should be. This is a witch who successfully brewed Polyjuice Potion in her second year, figured out what was lurking in the Chamber of Secrets, got a hundred and twelve per cent on her Charms exams and came up with the idea for Dumbledore’s Army. She could accomplish anything if she put her mind to it and demonstrated that repeatedly. That series honestly showed that both Harry and Ron would not have survived without Hermione’s spell.
+                                This is one witch who was as fierce as she was smart – we bet everyone that who dared to cross her everyone soon regretted it.
+                               </p>
+       
+                           </div>
+        
+                    </div>
+    
+                    <hr>
+    
+                    <div class="f-three">
+    
+                        <div class="image">
+                         <img class="img-one" src="https://images.ctfassets.net/usf1vwtuqyxm/2O762eX4FC5wodStvos5OW/e585ad2e41cde81b7647f5b02b9b3ce5/WB-HP-F1-albus-dumbledore-minerva-and-filch-web-landscape.jpg?w=380&h=285&fit=fill&f=top&fm=webp" alt="">   
+                        </div>
+    
+                        <div class="fe-title-container">
+                            <h1 style="margin-bottom: 15px;">How the Hogwarts Professors act like a family unit</h1>
+    
+                            <span style="background-color: rgb(152, 129, 152); color: white; padding: 3px 10px; border-radius: 15px; margin-right: 10px;">2023</span>
+                            <span>Dashboard</span>
+    
+                            <p style="margin-top: 15px;">
+                                For Harry and many of his fellow students, Hogwarts was home. But if Hogwarts was home, who was in charge? Why, the professors, of course. They each had a different role to play, almost as a family.
+    Nobody could dispute the fact that Dumbledore was in charge at Hogwarts, not even his enemies.
+    If Dumbledore was Hogwarts’ leader, then Professor McGonagall was definitely his second-in-command. Even before she literally marshalled troops to protect Hogwarts in the final battle with Voldemort, McGonagall was fierce in her loyalty both to Dumbledore and to the school.
+    Professor Snape was indulgent for students in his house, Slytherin. He often turned a blind eye to Draco Malfoy’s bad behaviour but his response to Hermione was just cruel.
+    Hagrid might not have been the most book-smart professor at Hogwarts, but if we were throwing a Hogwarts family reunion his name would definitely be at the top of the invite list.
+    And regardless of his party garb we’re sure he’d bring the fun.
+                            </p>
+    
+                        </div>
+    
+                    </div>
+    
+    
+                </div>
+    
+            </div>    
+
+        </section>
+
+    </main>
+
+    <!-- footer start -->
+
+    <footer>
+
+        <div class="fimage">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384021.png" alt="" class="fimg">
+            
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="" class="fimg">
+            
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384046.png" alt="" class="fimg">
+            
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384033.png" alt="" class="fimg">
+            
+
+        </div>
+
+        <p style="text-align: center; margin-top: 10px;">Copyright</p>
+
+    </footer>
+
+</body>
+
+</html>
